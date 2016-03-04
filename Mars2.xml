@@ -33,7 +33,7 @@
             </value>
             <value name="BOTHMOVRIGHT">
               <block type="math_number" id="9">
-                <field name="NUM">-95</field>
+                <field name="NUM">50</field>
               </block>
             </value>
           </block>
@@ -57,7 +57,7 @@
           <block type="movement_setmotors" id="13" inline="true">
             <value name="BOTHMOVLEFT">
               <block type="math_number" id="14">
-                <field name="NUM">-100</field>
+                <field name="NUM">50</field>
               </block>
             </value>
             <value name="BOTHMOVRIGHT">
@@ -95,19 +95,5 @@
     <next>
       <block type="movement_stop" id="21"></block>
     </next>
-  </block>
-  <block type="sensor_object" id="11" x="399" y="280">
-    <field name="OBJECT">RIGHTFRONT</field>
-  </block>
-  <block type="logic_compare" id="36" inline="true" x="548" y="320">
-    <field name="OP">LT</field>
-    <value name="B">
-      <block type="math_number" id="38">
-        <field name="NUM">75</field>
-      </block>
-    </value>
-  </block>
-  <block type="sensor_object" id="5" x="374" y="354">
-    <field name="OBJECT">LEFTFRONT</field>
   </block>
 </xml>
